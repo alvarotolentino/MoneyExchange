@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExchange.API", "MoneyExchange.API\MoneyExchange.API.csproj", "{66C2A76F-7FA6-4A9C-AA0A-386E9954CC3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExchange.Application", "MoneyExchange.Application\MoneyExchange.Application.csproj", "{A7F7A772-7947-46D6-87E1-330AAFEFF852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExchange.Domain", "MoneyExchange.Domain\MoneyExchange.Domain.csproj", "{1D7873EE-5D1F-48B0-B30B-9BD1B007D2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExchange.Persistence", "MoneyExchange.Persistence\MoneyExchange.Persistence.csproj", "{CA492F95-1064-4D02-9AAA-10E41A7318AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExchange.Infrastructure", "MoneyExchange.Infrastructure\MoneyExchange.Infrastructure.csproj", "{8D6EDAEE-837C-43A8-9550-F60A3648B790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C2A76F-7FA6-4A9C-AA0A-386E9954CC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C2A76F-7FA6-4A9C-AA0A-386E9954CC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C2A76F-7FA6-4A9C-AA0A-386E9954CC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C2A76F-7FA6-4A9C-AA0A-386E9954CC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F7A772-7947-46D6-87E1-330AAFEFF852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F7A772-7947-46D6-87E1-330AAFEFF852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F7A772-7947-46D6-87E1-330AAFEFF852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F7A772-7947-46D6-87E1-330AAFEFF852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7873EE-5D1F-48B0-B30B-9BD1B007D2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7873EE-5D1F-48B0-B30B-9BD1B007D2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7873EE-5D1F-48B0-B30B-9BD1B007D2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7873EE-5D1F-48B0-B30B-9BD1B007D2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA492F95-1064-4D02-9AAA-10E41A7318AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA492F95-1064-4D02-9AAA-10E41A7318AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA492F95-1064-4D02-9AAA-10E41A7318AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA492F95-1064-4D02-9AAA-10E41A7318AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6EDAEE-837C-43A8-9550-F60A3648B790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6EDAEE-837C-43A8-9550-F60A3648B790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6EDAEE-837C-43A8-9550-F60A3648B790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6EDAEE-837C-43A8-9550-F60A3648B790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {800DED74-828F-4DE5-8FE7-01750786E094}
+	EndGlobalSection
+EndGlobal
