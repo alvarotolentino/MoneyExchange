@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoneyExchange.Application\MoneyExchange.Application.csproj" />
     <ProjectReference Include="..\MoneyExchange.Domain\MoneyExchange.Domain.csproj" />
   </ItemGroup>
 
